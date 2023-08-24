@@ -5,6 +5,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var marker = L.marker([5.594951,-0.18503]).addTo(map)
-		.bindPopup('The Technology Sandbox<br> Where Yoh is sitting this very moment')
+		.bindPopup('The Technology Sandbox<br> Where Andy is sitting this very moment')
 		.openPopup();	
 
